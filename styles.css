@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+.wrapper {
+  width: 1100px;
+  margin: 20px auto;
+  background-color: #d9e0d1;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+.imageContainer img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.infoTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f5f5f5;
+  border: 1px solid #999;
+}
+
+.sideCol {
+  width: 200px;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #999;
+}
+.middleCol {
+  width: 600px;
+  padding: 15px;
+  vertical-align: top;
+  border: 1px solid #999;
+  background-color: #fff;
+}
+
+.middleCol h3 {
+  margin-top: 0;
+  color: #333;
+}
+.middleCol p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.sideCol img {
+  width: 100%;
+  border-radius: 4px;
+}
